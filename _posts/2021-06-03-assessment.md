@@ -9,17 +9,20 @@ toc_label: 순서
 ---
 ~~~c
 #include <stdio.h>
-int main(void)
-{ int year,month,day,result;
-printf("당신의 사주를 봐드립니다.\n");
-printf("연도 월 일을 차례대로 입력하세요 : ");
-scanf("%d,%d,%d",&year,&month,&day);
-result=(year-month+day)%10;
-if(result==0)
-printf("당신의 사주는 대박입니다.\n");
-else
-printf("당신의 사주는 그럭저럭입니다.\n");
-return 0;
+int main(void){ 
+  int year,month,day,result;
+  
+  printf("당신의 사주를 봐드립니다.\n");
+  printf("연도 월 일을 차례대로 입력하세요 : ");
+  scanf("%d,%d,%d",&year,&month,&day);
+  
+  result=(year-month+day)%10;
+  
+  if(result==0)
+    printf("당신의 사주는 대박입니다.\n");
+  else
+    printf("당신의 사주는 그럭저럭입니다.\n");
+  return 0;
 }
 ~~~
 
@@ -31,17 +34,17 @@ return 0;
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-printf("터널의 높이를 차례대로 입력하세요: ");
-scanf("%d%d%d", &a,&b,&c);
-if(a<=170)
-printf("충돌 %d", a);
-else if (b<=170)
-printf("충돌 %d" ,b);
-else if (c<=170)
-printf("충돌 %d" ,c);
-else
-printf("무사통과");
-return 0;
+  int a,b,c;
+  printf("터널의 높이를 차례대로 입력하세요: ");
+  scanf("%d%d%d", &a,&b,&c);
+  if(a<=170)
+    printf("충돌 %d", a);
+  else if (b<=170)
+    printf("충돌 %d" ,b);
+  else if (c<=170)
+    printf("충돌 %d" ,c);
+  else
+  printf("무사통과");
+  return 0;
 }
 ---
