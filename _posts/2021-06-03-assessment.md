@@ -6,6 +6,7 @@ toc_sticky: true
 toc_label: 순서
 
 ### 01. 사주보기 
+---
 ~~~c
 #include <stdio.h>
 int main(void)
@@ -21,7 +22,7 @@ printf("당신의 사주는 그럭저럭입니다.\n");
 return 0;
 }
 ~~~
----
+
 
 ### 02. 3개의 터널 통과
 
