@@ -7,6 +7,7 @@ toc_label: 순서
 
 ### 01. 사주보기 
 ---
+출생연도-월+일의 마지막 자리 숫자가 0이면 '대박' 아니면 '그럭저럭'
 ~~~c
 #include <stdio.h>
 int main(void){ 
