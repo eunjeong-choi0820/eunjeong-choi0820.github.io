@@ -6,7 +6,7 @@ toc_sticky: true
 toc_label: 순서
 
 ### 01. 사주보기 
-
+~~~c
 #include <stdio.h>
 int main(void)
 { int year,month,day,result;
@@ -20,12 +20,13 @@ else
 printf("당신의 사주는 그럭저럭입니다.\n");
 return 0;
 }
+~~~
 ---
 
 ### 02. 3개의 터널 통과
 
 지원이는 170cm인 차를 타고 3개의 터널을 통과한다. 3개의 터널 높이를 차례대로 입력하여 터널을 지나갈 수 있다면 '무사 통과'를출력하고 충돌이 일어난다면 '충돌'을 출력하고 가장 먼저 충돌하는 터널 높이도 출력하는 프로그램을 작성하라.
-
+~~~c
 #include<stdio.h>
 int main()
 {
