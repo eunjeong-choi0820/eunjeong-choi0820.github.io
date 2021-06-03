@@ -49,4 +49,31 @@ int main()
   printf("무사통과");
   return 0;
 }
+~~~
 ---
+
+### 03.이 달은 며칠까지 있을까?
+ 연도와 월을 알고 있을 때 그 달의 마지막 날을 구하는 프로그램을 작성하시오.
+ ~~~c
+ #include <stdio.h>
+ main()
+ {
+ int a,b;
+ printf("연도와 월을 입력하세요: ");
+ scanf("%d%d", &a, &b);
+ printf("%d년의 %d월의 마지막 날은", a,b);
+ if(b==1 || b==3 || b==5 || b==7|| b==8 ||b==10 || b==12)
+printf("31일");
+else if(b==4 || b==6 || b==9 || b==11)
+printf("30일");
+else
+{
+if(a%4==0 && a%100!9 || a%400==0)
+printf("29일");
+else
+printf("28일");
+}
+printf("입니다.\n");
+}
+~~~
+ 
