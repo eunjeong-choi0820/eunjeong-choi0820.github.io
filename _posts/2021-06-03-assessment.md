@@ -40,5 +40,6 @@ else if (c<=170)
 printf("충돌 %d" ,c);
 else
 printf("무사통과");
+return 0;
 }
 ---
