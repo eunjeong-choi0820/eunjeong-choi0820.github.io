@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "My Playlist🍒"
+title: "🍒My Playlist🍒"
 toc: true
 toc_sticky: true
 toc_label: "My playlist"
