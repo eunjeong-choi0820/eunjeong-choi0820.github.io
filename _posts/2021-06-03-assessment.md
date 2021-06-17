@@ -4,6 +4,8 @@ title: "수행평가 정리"
 toc: true
 toc_sticky: true
 toc_label: 순서
+catergories: 수업 내용
+
 ---
 
 ### 01. 사주보기 
